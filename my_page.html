@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style1.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Spectral+SC|VT323" rel="stylesheet">
+</head>
+
+<body>
+    <div class="jumbotron" style="background: url(http://res.cloudinary.com/dvxx5f4hr/image/upload/v1507895765/Best-Website-Background-Images28_ds5ral.jpg) no-repeat center fixed;
+    height:830px;">
+
+            <div class="row">
+                <div class="col-xs-6 col-xs-offset-3">
+                    <img src="logo.png" alt="logo image" class="img-responsive img">
+                </div>
+            </div>
+            <div class="row text-center"  style="font-family: 'Spectral SC', serif;">
+                <h2 style="font-family: 'VT323', monospace;font-size: 180px;font-stretch: expanded;">LEARN TO HACK</h2>
+
+                <h3 style="font-size: 50px;text-decoration: underline;">Get notified about the latest Hackathons.
+                    <br>Learn to code ,over dozen of choices.</h3>
+            </div>
+    </div>
+    <div class="panel">
+        <h2 class="text-center">HACK WITH HACKYOU!</h2>
+    </div>
+
+
+
+
+
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+                <div class="col-xs-8 col-xs-offset-2" style="background-color: rgba(200,200,200,0.5);height: 250px;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 text-center" >
+                                <h2  style="font-family: 'Spectral SC', serif;">Sign In</h2>
+                            </div>
+                        </div>
+                        <hr style="color: black;">
+                        <div class="row">
+                            <div class="col-xs-6" style="margin-top:5%;font-family: 'Spectral SC', serif;">
+                                <button class="btn btn-primary btn-active" style="margin-bottom: 2px;width: 25vw;"><i class="fa fa-facebook-official"> Sign In with Facebook</i></button><br>
+                                <button class="btn btn-danger btn-active" style="margin-bottom:2px;width: 25vw;"><i class="fa fa-google"> Sign in with Google</i></button>
+                            </div>
+
+                            <div class="col-xs-5" style="margin-top: 5%;">
+                                <input type="email" name="uEmail" placeholder="Email" size="15px " >
+                                <input type="password" name="pass" placeholder="Password" size="15px">
+                                <button type="submit" class="btn btn-active btn-success" style="margin-top: 2px;">Sign In</button><br>
+                                <a href="#">Forgot Password?</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+</div>
+
+<div class="panel">
+    <h2 class="text-center">WHAT WE DO!!</h2>
+</div>
+<div class="container">
+    <div class="slideshow">
+        <div>
+            <img src="http://res.cloudinary.com/dvxx5f4hr/image/upload/v1507895764/Best-Website-Background-Images6_vh3oes.jpg" class="img-responsive">
+        </div>
+        <div>
+            <img src="http://res.cloudinary.com/dvxx5f4hr/image/upload/e_blur:621/v1507895764/Best-Website-Background-Images6_vh3oes.jpg" class="img-responsive">
+        </div>
+        <div>
+            <img src="http://res.cloudinary.com/dvxx5f4hr/image/upload/e_blur:1150/v1507895764/Best-Website-Background-Images6_vh3oes.jpg" class="img-responsive">
+        </div>
+        <div>
+            <img src="http://res.cloudinary.com/dvxx5f4hr/image/upload/e_blur:1678/v1507895764/Best-Website-Background-Images6_vh3oes.jpg" class="img-responsive">
+        </div>
+
+    </div>
+</div>
+
+
+
+</body>
+<script type="text/javascript">
+    $(document).ready(function(){
+
+
+        $(".slideshow>div:gt(0)").hide();
+        $(".panel").css("background-color","blue");
+
+        setInterval(function()
+        {
+            $("#slideshow>div:first").fadeOut(1000).next().fadeIn(1000).end().appendTo(".slideshow");
+        },1000);
+
+
+    });
+
+
+</script>
+
+
+</html>
