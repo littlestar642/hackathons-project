@@ -23,7 +23,7 @@
                 <a href="#"><i class="fa fa-facebook"></i></a>
                 <a href="#"><i class="fa fa-github"></i></a>
                 <a href="#"><i class="fa fa-google"></i></a>
-                <i class="fa fa-user" style="margin-left:40%"><?php echo $_POST["name"] ?></i>
+                <i class="fa fa-user" style="margin-left:40%"><?php echo "<h2>"."sourabh_vars"."</h2>" ?></i>
             </div>
         </div>
 

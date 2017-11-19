@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 </head>
 <body style="background: url(http://res.cloudinary.com/dvxx5f4hr/image/upload/e_blur:415/v1507895764/Best-Website-Background-Images6_vh3oes.jpg) no-repeat center fixed;">
-
+<?php  session_start(); ?>
     <header>
         <div class="row">
             <div class="col-xs-6">
@@ -23,7 +23,7 @@
                 <a href="#"><i class="fa fa-facebook"></i></a>
                 <a href="#"><i class="fa fa-github"></i></a>
                 <a href="#"><i class="fa fa-google"></i></a>
-                <i class="fa fa-user" style="margin-left:40%"><?php echo $_POST["name"] ?></i>
+                <i class="fa fa-user" style="margin-left:40%"><?php echo $_POST["user_name"] ?></i>
             </div>
         </div>
 

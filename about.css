@@ -1,0 +1,20 @@
+.jumbotron{
+    background: url(http://res.cloudinary.com/dvxx5f4hr/image/upload/c_scale,w_1273/v1511120047/slide1_gk68y2.jpg) no-repeat center fixed;
+    height: 100vh;
+}
+
+.image{
+    box-shadow: 0px 0px 20px 0px rgb(0,0,0);
+    border: 5px inset black;
+}
+.down{
+    margin-top: 7%;
+    margin-left: 3%;
+}
+h1{
+    color: rgb(255,128,0);
+}
+.text{
+    text-shadow: 2px 2px 5px fuchsia;
+    font-size:30px;
+}
