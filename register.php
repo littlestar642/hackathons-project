@@ -1,5 +1,3 @@
-<html>
-<body>
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$name=$_POST["name"];
@@ -25,5 +23,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$conn->close();
 }
 ?>
-</body>
-</html>
+
